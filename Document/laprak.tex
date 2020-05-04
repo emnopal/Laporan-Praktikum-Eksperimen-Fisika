@@ -2,13 +2,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 
-\makeatletter
-\def\@seccntformat#1{%
-	\expandafter\ifx\csname c@#1\endcsname\c@section\else
-	\csname the#1\endcsname\quad
-	\fi}
-\makeatother
-
 \title{Distribusi Poisson}
 \date{}
 \author{}
@@ -17,11 +10,11 @@
 
 	\maketitle
 	
-	\section{Tujuan}
+	\section*{Tujuan}
 		1. Mempelajari karakteristik statistik peluruhan radioaktif.\\
 		2. Menentukan aktivitas peluruhan preparat radioaktif.
 	
-	\section{Dasar Teori}
+	\section*{Dasar Teori}
 	 
 		\hspace{0.35 cm} Radioaktif adalah suatu atom yang tidak stabil yang selalu melepaskan energi dan atau partikel untuk mencapai kestabilan di dalam inti atomnya. Proses pelepasan energi radiasi atau partikel ini dikenal dengan istilah peluruhan. Walaupun proses peluruhan ini bersifat acak, namun apabila jumlah partikel yang dilepaskan dalam selang waktu tertentu ternyata memiliki pola kecenderungan tertentu secara statistik.\par
 		Kemungkinan suatu preparat radioaktif akan meluruh dengan melepaskan $n$ partikel dalam selang waktu $\Delta t$ tertentu dapat diperkirakan melalui pendekatan distribusi Poisson
@@ -39,7 +32,7 @@
 		
 		
 		\begin{center}
-			\includegraphics{./1.jpg}
+			\includegraphics{Picture/1.jpg}
 			Gambar 1. Distribusi Poisson hasil pengukuran dan perhitungan. \\ Histogram: $h(n)$ dan kurva: $N.W_{\mu}$
 		\end{center}
 		
@@ -49,7 +42,7 @@
 			\sigma = \sqrt{\mu}
 		\end{equation}
 		
-	\section{Peralatan}
+	\section*{Peralatan}
 	1. 1 Unit komputer terkoneksi internet \\
 	2. 1 Unit sistem kontrol \\ 
 	3. 1 Set preparat radioaktif \\
@@ -57,22 +50,92 @@
 	5. 1 Sensor Cassy \\
 	6. 1 GM Box \\
 	
-	\section{Metode Eksperimen}
+	\section*{Metode Eksperimen}
 	
 		\hspace{0.35 cm} Pada eksperimen ini, akan dihitung frekuensi dari sejumlah $n$ partikel yang meluruh dalam selang waktu $\Delta t$ tertentu. Pengukuran tersebut dilakukan terhadap 5 jenis preparat radioaktif yang berbeda yang dihitung dengan menggunakan pencacah Geiger Muller. Setiap preparat akan dilakukan pengambilan data sebanyak $500$ data yang selanjutnya dapat ditampilkan dalam bentuk histogram. 
 		
 		\par Berdasarkan data tersebut, akan dihitung nilai rata-rata peluruhan $\mu$ dan simpangan bakunya $\sigma$ dengan pendekatan distribusi Poisson. Untuk preparat yang memiliki nilai rata-rata $\mu$ yang besar, dilakukan pula pendekatan distribusi normal atau Gausssian sebagai pembanding untuk membuktikan pola distribusi yang paling sesuai. 
 	
-	\section{Data Percobaan}
+	\section*{Data Percobaan}
+		
+		Terlampirkan 
 	
-	\section{Pengolahan Data}
+	\section*{Pengolahan Data}
+		
+		Distribusi Poisson Ternormalisasi
+		\begin{equation}
+			w = \frac{h}{i} = \frac{6.62\times10^{-34}}{500} = 1.324\times10^{-36} \hspace{0.1 cm} m^{2}kg/s
+		\end{equation}
+		dimana:\\
+		$h$ (Konstanta Planck) $ = 6.62\times10^{-34} \hspace{0.1 cm} m^{2}kg/s$\\
+		$i$ (Jumlah Data) $ = 500 $\\
+		\\
+		Kemudian, dengan menggunakan metode regresi linier :
+		\begin{equation}
+		ln(w.n!) = ln(\mu).n - \mu
+		\end{equation}
+		\begin{equation}
+		y =  b.x+a
+		\end{equation}
+			
+			\subsection*{1. Na-22}
+			Tabel Pengolahan Data: \\
+			Koefisien Regresi, \\
+			$a = $ \\
+			$b = $ \\
+			$r = $ \\
+			Grafik: \\
+			Grafik Histogram: \\
+			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
+			
+			\subsection*{2. Co-60}
+			Tabel Pengolahan Data: \\
+			Koefisien Regresi, \\
+			$a = $ \\
+			$b = $ \\
+			$r = $ \\
+			Grafik: \\
+			Grafik Histogram: \\
+			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
+			
+			\subsection*{3. Sr-90}
+			Tabel Pengolahan Data: \\
+			Koefisien Regresi, \\
+			$a = $ \\
+			$b = $ \\
+			$r = $ \\
+			Grafik: \\
+			Grafik Histogram: \\
+			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
+				
+			\subsection*{4. Cs-137}
+			Tabel Pengolahan Data:\\
+			Koefisien Regresi,\\
+			$a = $ \\
+			$b = $ \\
+			$r = $ \\
+			Grafik: \\
+			Grafik Histogram: \\
+			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
+		
+			\subsection*{5. Am-241}
+			Tabel Pengolahan Data:\\
+			Koefisien Regresi,\\
+			$a = $ \\
+			$b = $ \\
+			$r = $ \\
+			Grafik: \\
+			Grafik Histogram: \\
+			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
+			
+			\subsection*{Perbandingan data antar preparat}
+			
 	
-	\section{Pembahasan}
+	\section*{Pembahasan}
 	
-	\section{Kesimpulan}
+	\section*{Kesimpulan}
 	
-	\section{Daftar Pustaka}
+	\section*{Daftar Pustaka}
 	
-	\section{Lampiran}
 	
 \end{document}
