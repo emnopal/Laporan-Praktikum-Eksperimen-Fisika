@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.26)  4 MAY 2020 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.26)  7 MAY 2020 00:29
 entering extended mode
 **./laprak.tex
 (laprak.tex
@@ -60,43 +60,83 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs
+\booktabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen137
+\lightrulewidth=\dimen138
+\cmidrulewidth=\dimen139
+\belowrulesep=\dimen140
+\belowbottomsep=\dimen141
+\aboverulesep=\dimen142
+\abovetopsep=\dimen143
+\cmidrulesep=\dimen144
+\cmidrulekern=\dimen145
+\defaultaddspace=\dimen146
+\@cmidla=\count175
+\@cmidlb=\count176
+\@aboverulesep=\dimen147
+\@belowrulesep=\dimen148
+\@thisruleclass=\count177
+\@lastruleclass=\count178
+\@thisrulewidth=\dimen149
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\lo
+ngtable.sty"
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count179
+\LTcapwidth=\dimen150
+\LT@head=\box45
+\LT@firsthead=\box46
+\LT@foot=\box47
+\LT@lastfoot=\box48
+\LT@cols=\count180
+\LT@rows=\count181
+\c@LT@tables=\count182
+\c@LT@chunks=\count183
+\LT@p@ftn=\toks18
+)
 ("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backen
 d\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count175
-\l__pdf_internal_box=\box45
+\l__kernel_color_stack_int=\count184
+\l__pdf_internal_box=\box49
 ) (laprak.aux)
 \openout1 = `laprak.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 ("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/m
 kii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count176
-\scratchdimen=\dimen137
-\scratchbox=\box46
-\nofMPsegments=\count177
-\nofMParguments=\count178
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count179
-\MPscratchDim=\dimen138
-\MPnumerator=\count180
-\makeMPintoPDFobject=\count181
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count185
+\scratchdimen=\dimen151
+\scratchbox=\box50
+\nofMPsegments=\count186
+\nofMParguments=\count187
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count188
+\MPscratchDim=\dimen152
+\MPnumerator=\count189
+\makeMPintoPDFobject=\count190
+\everyMPtoPDFconversion=\toks20
 )
 ("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf
 -pkg\epstopdf-base.sty"
@@ -105,90 +145,276 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <6> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 20.
+(Font)              <7> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 20.
+(Font)              <5> on input line 22.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
 <Picture/1.jpg, id=1, 392.96812pt x 203.25937pt>
 File: Picture/1.jpg Graphic file (type jpg)
 <use Picture/1.jpg>
-Package pdftex.def Info: Picture/1.jpg  used on input line 35.
-(pdftex.def)             Requested size: 392.96715pt x 203.25887pt.
-
-Overfull \hbox (47.96715pt too wide) in paragraph at lines 35--36
- [] 
- []
-
+Package pdftex.def Info: Picture/1.jpg  used on input line 37.
+(pdftex.def)             Requested size: 312.9803pt x 161.89746pt.
 [1
 
 {C:/Users/Muhammad Naufal/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 46--52
+Underfull \hbox (badness 10000) in paragraph at lines 48--54
 
  []
 
 [2 <./Picture/1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 68--74
+Underfull \hbox (badness 10000) in paragraph at lines 69--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--90
-
+Overfull \hbox (11.27867pt too wide) in alignment at lines 84--87
+ [] [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--100
-
+Overfull \hbox (11.27867pt too wide) in alignment at lines 87--89
+ [] [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--110
-
+Overfull \hbox (11.27867pt too wide) in alignment at lines 89--92
+ [] [] [] [] [] [] [] [] [] 
  []
 
+
+Overfull \hbox (11.27867pt too wide) in alignment at lines 92--94
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (11.27867pt too wide) in alignment at lines 94--105
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+<Data/Na-22-Graph.png, id=17, 390.7398pt x 295.3434pt>
+File: Data/Na-22-Graph.png Graphic file (type png)
+<use Data/Na-22-Graph.png>
+Package pdftex.def Info: Data/Na-22-Graph.png  used on input line 112.
+(pdftex.def)             Requested size: 312.9803pt x 236.57697pt.
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 112--120
+<Data/Na-22.png, id=22, 433.62pt x 289.08pt>
+File: Data/Na-22.png Graphic file (type png)
+<use Data/Na-22.png>
+Package pdftex.def Info: Data/Na-22.png  used on input line 117.
+(pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--130
+Overfull \hbox (1.76709pt too wide) in alignment at lines 124--127
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.76709pt too wide) in alignment at lines 127--129
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.76709pt too wide) in alignment at lines 129--132
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.76709pt too wide) in alignment at lines 132--134
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.76709pt too wide) in alignment at lines 134--144
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[4 <./Data/Na-22-Graph.png> <./Data/Na-22.png>]
+<Data/Co-60-Graph.png, id=28, 410.0118pt x 295.3434pt>
+File: Data/Co-60-Graph.png Graphic file (type png)
+<use Data/Co-60-Graph.png>
+Package pdftex.def Info: Data/Co-60-Graph.png  used on input line 151.
+(pdftex.def)             Requested size: 312.9803pt x 225.45024pt.
+<Data/Co-60.png, id=29, 433.62pt x 289.08pt>
+File: Data/Co-60.png Graphic file (type png)
+<use Data/Co-60.png>
+Package pdftex.def Info: Data/Co-60.png  used on input line 156.
+(pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
+ [5 <./Data/Co-60-Graph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-[4] (laprak.aux) ) 
+
+Overfull \hbox (66.97331pt too wide) in alignment at lines 163--166
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (66.97331pt too wide) in alignment at lines 166--168
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (66.97331pt too wide) in alignment at lines 168--171
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (66.97331pt too wide) in alignment at lines 171--173
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (66.97331pt too wide) in alignment at lines 173--195
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (66.97331pt too wide) in alignment at lines 195--215
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[6 <./Data/Co-60.png>]
+Overfull \hbox (66.97331pt too wide) in alignment at lines 215--218
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+<Data/Sr-90-Graph.png, id=38, 396.0396pt x 295.3434pt>
+File: Data/Sr-90-Graph.png Graphic file (type png)
+<use Data/Sr-90-Graph.png>
+Package pdftex.def Info: Data/Sr-90-Graph.png  used on input line 225.
+(pdftex.def)             Requested size: 312.9803pt x 233.40434pt.
+[7]
+<Data/Sr-90.png, id=43, 433.62pt x 289.08pt>
+File: Data/Sr-90.png Graphic file (type png)
+<use Data/Sr-90.png>
+Package pdftex.def Info: Data/Sr-90.png  used on input line 230.
+(pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+
+Overfull \hbox (58.63992pt too wide) in alignment at lines 237--240
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (58.63992pt too wide) in alignment at lines 240--242
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (58.63992pt too wide) in alignment at lines 242--245
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (58.63992pt too wide) in alignment at lines 245--247
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (58.63992pt too wide) in alignment at lines 247--266
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[8 <./Data/Sr-90-Graph.png> <./Data/Sr-90.png>]
+<Data/Cs-137-Graph.png, id=49, 390.7398pt x 295.3434pt>
+File: Data/Cs-137-Graph.png Graphic file (type png)
+<use Data/Cs-137-Graph.png>
+Package pdftex.def Info: Data/Cs-137-Graph.png  used on input line 273.
+(pdftex.def)             Requested size: 312.9803pt x 236.57697pt.
+ [9]
+<Data/Cs-137.png, id=53, 433.62pt x 289.08pt>
+File: Data/Cs-137.png Graphic file (type png)
+<use Data/Cs-137.png>
+Package pdftex.def Info: Data/Cs-137.png  used on input line 278.
+(pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+
+Overfull \hbox (16.27869pt too wide) in alignment at lines 285--288
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (16.27869pt too wide) in alignment at lines 288--290
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (16.27869pt too wide) in alignment at lines 290--293
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (16.27869pt too wide) in alignment at lines 293--295
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (16.27869pt too wide) in alignment at lines 295--306
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[10 <./Data/Cs-137-Graph.png> <./Data/Cs-137.png>]
+<Data/Am-241-Graph.png, id=59, 390.7398pt x 295.3434pt>
+File: Data/Am-241-Graph.png Graphic file (type png)
+<use Data/Am-241-Graph.png>
+Package pdftex.def Info: Data/Am-241-Graph.png  used on input line 313.
+(pdftex.def)             Requested size: 312.9803pt x 236.57697pt.
+<Data/Am-241.png, id=60, 433.62pt x 289.08pt>
+File: Data/Am-241.png Graphic file (type png)
+<use Data/Am-241.png>
+Package pdftex.def Info: Data/Am-241.png  used on input line 318.
+(pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
+ [11 <./Data/Am-241-Graph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+[12 <./Data/Am-241.png>] (laprak.aux) ) 
 Here is how much of TeX's memory you used:
- 1180 strings out of 480930
- 18394 string characters out of 2895069
- 254267 words of memory out of 3000000
- 17086 multiletter control sequences out of 15000+200000
+ 1392 strings out of 480930
+ 21600 string characters out of 2895069
+ 270258 words of memory out of 3000000
+ 17279 multiletter control sequences out of 15000+200000
  536285 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,4n,25p,449b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Muhammad Naufal/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Muhammad Naufal/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Muham
-mad Naufal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><C:/Users/Muhammad Naufal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Users/Muhammad Naufal/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Muhammad Naufal/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Use
+ 30i,5n,25p,449b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Muhammad Naufal/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Muhamma
+d Naufal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Users/Muhammad Naufal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb><C:/Users/Muhammad Naufal/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Muhammad Naufal/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Use
 rs/Muhammad Naufal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb><C:/Users/Muhammad Naufal/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on laprak.pdf (4 pages, 117877 bytes).
+s/cm/cmr7.pfb><C:/Users/Muhammad Naufal/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Muhammad Naufal/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on laprak.pdf (12 pages, 890929 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
