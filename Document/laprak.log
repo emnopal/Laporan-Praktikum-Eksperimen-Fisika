@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.26)  7 MAY 2020 12:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.26)  7 MAY 2020 13:42
 entering extended mode
 **./laprak.tex
 (laprak.tex
@@ -229,16 +229,29 @@ Package pdftex.def Info: Picture/1.jpg  used on input line 39.
 
 {C:/Users/Muhammad Naufal/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <.
 /Picture/1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--79
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--120
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
+
+
+Overfull \vbox (13.44789pt too high) has occurred while \output is active []
+
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 113--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--120
+
+ []
+
 <Data/Na-22-Graph.png, id=17, 390.7398pt x 295.3434pt>
 File: Data/Na-22-Graph.png Graphic file (type png)
 <use Data/Na-22-Graph.png>
@@ -249,32 +262,55 @@ File: Data/Na-22.png Graphic file (type png)
 <use Data/Na-22.png>
 Package pdftex.def Info: Data/Na-22.png  used on input line 126.
 (pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
- [3 <./Data/Na-22-Graph.png> <./Data/Na-22.png>]
+[3 <./Data/Na-22-Graph.png> <./Data/Na-22.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 155--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--162
+
+ []
+
 <Data/Co-60-Graph.png, id=26, 410.0118pt x 295.3434pt>
 File: Data/Co-60-Graph.png Graphic file (type png)
 <use Data/Co-60-Graph.png>
-Package pdftex.def Info: Data/Co-60-Graph.png  used on input line 162.
+Package pdftex.def Info: Data/Co-60-Graph.png  used on input line 163.
 (pdftex.def)             Requested size: 312.9803pt x 225.45024pt.
- [4 <./Data/Co-60-Graph.png>]
+[4 <./Data/Co-60-Graph.png>]
 <Data/Co-60.png, id=31, 433.62pt x 289.08pt>
 File: Data/Co-60.png Graphic file (type png)
 <use Data/Co-60.png>
-Package pdftex.def Info: Data/Co-60.png  used on input line 167.
+Package pdftex.def Info: Data/Co-60.png  used on input line 168.
 (pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
  [5 <./Data/Co-60.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 232--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--239
+
+ []
+
 <Data/Sr-90-Graph.png, id=36, 396.0396pt x 295.3434pt>
 File: Data/Sr-90-Graph.png Graphic file (type png)
 <use Data/Sr-90-Graph.png>
-Package pdftex.def Info: Data/Sr-90-Graph.png  used on input line 238.
+Package pdftex.def Info: Data/Sr-90-Graph.png  used on input line 240.
 (pdftex.def)             Requested size: 312.9803pt x 233.40434pt.
- [6 <./Data/Sr-90-Graph.png>]
+[6 <./Data/Sr-90-Graph.png>]
 <Data/Sr-90.png, id=41, 433.62pt x 289.08pt>
 File: Data/Sr-90.png Graphic file (type png)
 <use Data/Sr-90.png>
-Package pdftex.def Info: Data/Sr-90.png  used on input line 243.
+Package pdftex.def Info: Data/Sr-90.png  used on input line 245.
 (pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--285
+Underfull \hbox (badness 10000) in paragraph at lines 283--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--288
 
  []
 
@@ -282,25 +318,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 281--285
 <Data/Cs-137-Graph.png, id=47, 390.7398pt x 295.3434pt>
 File: Data/Cs-137-Graph.png Graphic file (type png)
 <use Data/Cs-137-Graph.png>
-Package pdftex.def Info: Data/Cs-137-Graph.png  used on input line 288.
+Package pdftex.def Info: Data/Cs-137-Graph.png  used on input line 291.
 (pdftex.def)             Requested size: 312.9803pt x 236.57697pt.
 <Data/Cs-137.png, id=48, 433.62pt x 289.08pt>
 File: Data/Cs-137.png Graphic file (type png)
 <use Data/Cs-137.png>
-Package pdftex.def Info: Data/Cs-137.png  used on input line 293.
+Package pdftex.def Info: Data/Cs-137.png  used on input line 296.
 (pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
  [8 <./Data/Cs-137-Graph.png> <./Data/Cs-137.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 326--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--333
+
+ []
+
 <Data/Am-241-Graph.png, id=54, 390.7398pt x 295.3434pt>
 File: Data/Am-241-Graph.png Graphic file (type png)
 <use Data/Am-241-Graph.png>
-Package pdftex.def Info: Data/Am-241-Graph.png  used on input line 330.
+Package pdftex.def Info: Data/Am-241-Graph.png  used on input line 334.
 (pdftex.def)             Requested size: 312.9803pt x 236.57697pt.
-
 [9 <./Data/Am-241-Graph.png>]
 <Data/Am-241.png, id=59, 433.62pt x 289.08pt>
 File: Data/Am-241.png Graphic file (type png)
 <use Data/Am-241.png>
-Package pdftex.def Info: Data/Am-241.png  used on input line 335.
+Package pdftex.def Info: Data/Am-241.png  used on input line 339.
 (pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
  [10 <./Data/Am-241.png>] (laprak.aux) ) 
 Here is how much of TeX's memory you used:
@@ -310,7 +354,7 @@ Here is how much of TeX's memory you used:
  17781 multiletter control sequences out of 15000+200000
  536285 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,5n,25p,449b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,5n,25p,449b,200s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Muhammad Naufal/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Muhamm
 ad Naufal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex
@@ -324,7 +368,7 @@ nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Muhammad Naufal/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Muhammad
  Naufal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb>
-Output written on laprak.pdf (10 pages, 889513 bytes).
+Output written on laprak.pdf (10 pages, 889820 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

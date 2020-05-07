@@ -14,11 +14,11 @@
 
 	\maketitle
 	
-	\section*{Tujuan}
+	\section{Tujuan}
 		1. Mempelajari karakteristik statistik peluruhan radioaktif.\\
 		2. Menentukan aktivitas peluruhan preparat radioaktif.
 	
-	\section*{Dasar Teori}
+	\section{Dasar Teori}
 	 
 		\hspace{0.35 cm} Radioaktif adalah suatu atom yang tidak stabil yang selalu melepaskan energi dan atau partikel untuk mencapai kestabilan di dalam inti atomnya. Proses pelepasan energi radiasi atau partikel ini dikenal dengan istilah peluruhan. Walaupun proses peluruhan ini bersifat acak, namun apabila jumlah partikel yang dilepaskan dalam selang waktu tertentu ternyata memiliki pola kecenderungan tertentu secara statistik.\par
 		Kemungkinan suatu preparat radioaktif akan meluruh dengan melepaskan $n$ partikel dalam selang waktu $\Delta t$ tertentu dapat diperkirakan melalui pendekatan distribusi Poisson
@@ -46,7 +46,7 @@
 			\sigma = \sqrt{\mu}
 		\end{equation}
 	
-	\section*{Peralatan}
+	\section{Peralatan}
 	1. 1 Unit komputer terkoneksi internet \\
 	2. 1 Unit sistem kontrol \\ 
 	3. 1 Set preparat radioaktif \\
@@ -54,17 +54,17 @@
 	5. 1 Sensor Cassy \\
 	6. 1 GM Box 
 	
-	\section*{Metode Eksperimen}
+	\section{Metode Eksperimen}
 	
 		\hspace{0.35 cm} Pada eksperimen ini, akan dihitung frekuensi dari sejumlah $n$ partikel yang meluruh dalam selang waktu $\Delta t$ tertentu. Pengukuran tersebut dilakukan terhadap 5 jenis preparat radioaktif yang berbeda yang dihitung dengan menggunakan pencacah Geiger Muller. Setiap preparat akan dilakukan pengambilan data sebanyak $500$ data yang selanjutnya dapat ditampilkan dalam bentuk histogram. 
 		
 		\par Berdasarkan data tersebut, akan dihitung nilai rata-rata peluruhan $\mu$ dan simpangan bakunya $\sigma$ dengan pendekatan distribusi Poisson. Untuk preparat yang memiliki nilai rata-rata $\mu$ yang besar, dilakukan pula pendekatan distribusi normal atau Gausssian sebagai pembanding untuk membuktikan pola distribusi yang paling sesuai. 
 	
-	\section*{Data Percobaan}
+	\section{Data Percobaan}
 		
 		Terlampir
 	
-	\section*{Pengolahan Data}
+	\section{Pengolahan Data}
 		
 		\begin{equation}
 		w = \frac{h}{i}
@@ -72,21 +72,20 @@
 		dengan:\\
 		$w$ = nilai probabilitas distribusi Poisson ternormalisasi\\
 		$i$ = jumlah data (500 data)\\
-		$h$ = nilai frekuensi pada histogram\\
-		$n$ = nilai data pada histogram\\ \\
-		dan disini kita juga mengolah data menggunakan regresi linier\\
-		dengan persamaan:
+		$h$ = nilai frekuensi pada histogram\\ \\
+		kemudian, mengolah data menggunakan regresi linier dengan persamaan:
 		\begin{equation}
 		ln(w.n!) = ln(\mu).n-\mu
 		\end{equation}
 		\begin{equation}
 		y = bx+a
 		\end{equation}
+		dan, standar deviasinya adalah:\\
 		\begin{equation}
 		\sigma = \sqrt{\mu} = \sqrt{-a}
 		\end{equation}
 			
-			\subsection*{1. Na-22}
+			\subsection{Na-22}
 			Tabel Pengolahan Data:
 			
 			\begin{longtable}{@{}lllllllll@{}}
@@ -113,7 +112,8 @@
 				\end{longtable}
 			\hspace{-0.6cm}Koefisien Regresi, \\
 			$a = -1.81056461$ \\
-			$b = 0.58610942$ \\
+			$b = 0.58610942$ \\ \\
+			Error,\\
 			$r^{2} = 0.9892709672063679$ \\
 			$r = 0.9946210168734461 $ \\ \\
 			Grafik: 
@@ -129,7 +129,7 @@
 			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
 			$\sigma = \sqrt{-(-1.81056461)} = 1.345572223999886$ \newpage
 			
-			\subsection*{2. Co-60}
+			\subsection{Co-60}
 			Tabel Pengolahan Data: 
 			\begin{longtable}{@{}lllllllll@{}}
 				\toprule
@@ -154,9 +154,10 @@
 			\end{longtable}
 			\hspace{-0.6cm}Koefisien Regresi, \\
 			$a = -1.36695954$ \\
-			$b = 0.30324818$ \\
+			$b = 0.30324818$ \\ \\
+			Error,\\
 			$r^{2} = 0.8920288182711459$ \\
-			$r = 0.9444727726468063$ \\
+			$r = 0.9444727726468063$ \\ \\
 			Grafik: 
 			\begin{center}
 				\includegraphics[width=110mm]{Data/Co-60-Graph.png}\\
@@ -170,7 +171,7 @@
 			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
 			$\sigma = \sqrt{-(-1.36695954)} = 1.169170449506829$ 		
 			
-			\subsection*{3. Sr-90}
+			\subsection{Sr-90}
 			Tabel Pengolahan Data:
 			\begin{longtable}{@{}lllllllll@{}}
 				\toprule
@@ -230,9 +231,10 @@
 			\end{longtable}
 			\hspace{-0.6cm}Koefisien Regresi, \\
 			$a = -61.73789708$ \\
-			$b =4.12400194 $ \\
+			$b =4.12400194 $ \\ \\
+			Error,\\
 			$r^{2} = 0.9998862687766302$ \\
-			$r = 0.9999431327713743$ \\ 
+			$r = 0.9999431327713743$ \\ \\
 			Grafik: 
 			\begin{center}
 				\includegraphics[width=110mm]{Data/Sr-90-Graph.png}\\
@@ -246,7 +248,7 @@
 			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
 			$\sigma = \sqrt{-(-61.73789708)} = 7.857346694654627$
 				
-			\subsection*{4. Cs-137}
+			\subsection{Cs-137}
 			Tabel Pengolahan Data:
 			\begin{longtable}{@{}lllllllll@{}}
 				\toprule
@@ -280,7 +282,8 @@
 			\end{longtable}
 			\hspace{-0.6cm}Koefisien Regresi, \\
 			$a = -6.13748382$ \\
-			$b = 1.8127361$ \\
+			$b = 1.8127361$ \\ \\
+			Error,\\
 			$r^{2} = 0.9980493145499695$ \\
 			$r = 0.9990241811637842$ \\ \newpage
 			Grafik: 
@@ -296,7 +299,7 @@
 			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
 			$ \sigma = \sqrt{-(-6.13748382)} = 2.477394562842181 $\newpage
 			
-			\subsection*{5. Am-241}
+			\subsection{Am-241}
 			Tabel Pengolahan Data:
 			\begin{longtable}{@{}lllllllll@{}}
 				\toprule
@@ -322,9 +325,10 @@
 			\end{longtable}
 			\hspace{-0.6cm}Koefisien Regresi, \\
 			$a = -2.12815321$ \\
-			$b = 0.73669029$ \\
+			$b = 0.73669029$ \\ \\
+			Error,\\
 			$r^{2} = 0.9645310150242827$ \\
-			$r = 0.9821053991422116$ \\			
+			$r = 0.9821053991422116$ \\	\\		
 			Grafik: 
 			\begin{center}
 				\includegraphics[width=110mm]{Data/Am-241-Graph.png}\\
@@ -338,7 +342,7 @@
 			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\			
 			$\sigma = \sqrt{-(-2.12815321)} = 1.458819114900816$
 			
-			\subsection*{Perbandingan data antar preparat}
+			\subsection{Perbandingan data antar preparat}
 				\begin{longtable}{@{}llllll@{}}
 					\toprule
 					Preparat &
@@ -364,11 +368,11 @@
 				\end{longtable}
 			
 	
-	\section*{Pembahasan}
+	\section{Pembahasan}
 	
-	\section*{Kesimpulan}
+	\section{Kesimpulan}
 	
-	\section*{Daftar Pustaka}
+	\section{Daftar Pustaka}
 	
 	
 \end{document}
