@@ -1,0 +1,25 @@
+Am-241
+Slope (m) =  [[0.73669029]]
+Intercept (b) =  [-2.12815321]
+Root Mean Squared Error: 0.9645310150242827
+Root of Root Mean Squared Error: 0.9821053991422116
+Co-60
+Slope (m) =  [[0.30324818]]
+Intercept (b) =  [-1.36695954]
+Root Mean Squared Error: 0.8920288182711459
+Root of Root Mean Squared Error: 0.9444727726468063
+Cs-137
+Slope (m) =  [[1.8127361]]
+Intercept (b) =  [-6.13748382]
+Root Mean Squared Error: 0.9980493145499695
+Root of Root Mean Squared Error: 0.9990241811637842‬
+Na-22
+Slope (m) =  [[0.58610942]]
+Intercept (b) =  [-1.81056461]
+Root Mean Squared Error: 0.9892709672063679
+Root of Root Mean Squared Error: 0.9946210168734461‬
+Sr-90
+Slope (m) =  [[4.12400194]]
+Intercept (b) =  [-61.73789708]
+Root Mean Squared Error: 0.9998862687766302
+Root of Root Mean Squared Error: 0.9999431327713743

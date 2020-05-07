@@ -3,6 +3,8 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{longtable}
+\usepackage{geometry}
+\geometry{legalpaper}
 
 \title{Distribusi Poisson}
 \date{}
@@ -34,7 +36,7 @@
 		
 		
 		\begin{center}
-			\includegraphics[width=110mm]{Picture/1.jpg}
+			\includegraphics[width=110mm]{Picture/1.jpg}\\
 			Gambar 1. Distribusi Poisson hasil pengukuran dan perhitungan. \\ Histogram: $h(n)$ dan kurva: $N.W_{\mu}$
 		\end{center}
 		
@@ -50,7 +52,7 @@
 	3. 1 Set preparat radioaktif \\
 	4. 1 Pencacah Geiger Muller \\
 	5. 1 Sensor Cassy \\
-	6. 1 GM Box \\
+	6. 1 GM Box 
 	
 	\section*{Metode Eksperimen}
 	
@@ -77,11 +79,17 @@
 		\begin{equation}
 		ln(w.n!) = ln(\mu).n-\mu
 		\end{equation}
+		\begin{equation}
+		y = bx+a
+		\end{equation}
+		\begin{equation}
+		\sigma = \sqrt{\mu} = \sqrt{-a}
+		\end{equation}
 			
 			\subsection*{1. Na-22}
 			Tabel Pengolahan Data:
 			
-				\begin{longtable}{@{}lllllllll@{}}
+			\begin{longtable}{@{}lllllllll@{}}
 					\toprule
 					No  & $n$  & $n^{2}$ & $n!$   & $h$   & $w$     & $ln(w.n!)$     & $ln^{2}(w.n!)$ & $n.ln(w.n!)$   \\ \midrule
 				\endfirsthead
@@ -104,20 +112,22 @@
 				$\Sigma$ & 28 & 140                  & 5914 & 500 & 1     & 1.926546899  & 15.04844397                 & 31.35950977  \\* \bottomrule
 				\end{longtable}
 			\hspace{-0.6cm}Koefisien Regresi, \\
-			$a = $ \\
-			$b = $ \\
-			$r = $ \\
+			$a = -1.81056461$ \\
+			$b = 0.58610942$ \\
+			$r^{2} = 0.9892709672063679$ \\
+			$r = 0.9946210168734461 $ \\ \\
 			Grafik: 
 			\begin{center}
-				\includegraphics[width=110mm]{Data/Na-22-Graph.png}
+				\includegraphics[width=110mm]{Data/Na-22-Graph.png}\\
 				Gambar 2. Grafik Regresi Linier dari Preparat Na-22.
 			\end{center}
 			Grafik Histogram:
 			\begin{center}
-				\includegraphics[width=110mm]{Data/Na-22.png}
+				\includegraphics[width=110mm]{Data/Na-22.png}\\
 				Gambar 3. Grafik Histogram dari Preparat Na-22.
 			\end{center}
 			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
+			$\sigma = \sqrt{-(-1.81056461)} = 1.345572223999886$ \newpage
 			
 			\subsection*{2. Co-60}
 			Tabel Pengolahan Data: 
@@ -143,20 +153,22 @@
 				$\Sigma$ & 21 & 91                   & 874 & 500 & 1     & -3.200505063 & 4.349845442                 & -1.110566202 \\* \bottomrule
 			\end{longtable}
 			\hspace{-0.6cm}Koefisien Regresi, \\
-			$a = $ \\
-			$b = $ \\
-			$r = $ \\
+			$a = -1.36695954$ \\
+			$b = 0.30324818$ \\
+			$r^{2} = 0.8920288182711459$ \\
+			$r = 0.9444727726468063$ \\
 			Grafik: 
 			\begin{center}
-				\includegraphics[width=110mm]{Data/Co-60-Graph.png}
+				\includegraphics[width=110mm]{Data/Co-60-Graph.png}\\
 				Gambar 4. Grafik Regresi Linier dari Preparat Co-60.
-			\end{center}
+			\end{center}\newpage
 			Grafik Histogram:
 			\begin{center}
-				\includegraphics[width=110mm]{Data/Co-60.png}
+				\includegraphics[width=110mm]{Data/Co-60.png}\\
 				Gambar 5. Grafik Histogram dari Preparat Co-60.
 			\end{center} 
 			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
+			$\sigma = \sqrt{-(-1.36695954)} = 1.169170449506829$ 		
 			
 			\subsection*{3. Sr-90}
 			Tabel Pengolahan Data:
@@ -217,20 +229,22 @@
 				$\Sigma$ & 2621 & 169897               & 3.9981E+124 & 500 & 1     & 8216.017408 & 1714952.005                 & 538840.5294 \\* \bottomrule
 			\end{longtable}
 			\hspace{-0.6cm}Koefisien Regresi, \\
-			$a = $ \\
-			$b = $ \\
-			$r = $ \\
+			$a = -61.73789708$ \\
+			$b =4.12400194 $ \\
+			$r^{2} = 0.9998862687766302$ \\
+			$r = 0.9999431327713743$ \\ 
 			Grafik: 
 			\begin{center}
-				\includegraphics[width=110mm]{Data/Sr-90-Graph.png}
+				\includegraphics[width=110mm]{Data/Sr-90-Graph.png}\\
 				Gambar 6. Grafik Regresi Linier dari Preparat Sr-90.
-			\end{center}
+			\end{center}\newpage
 			Grafik Histogram:
 			\begin{center}
-				\includegraphics[width=110mm]{Data/Sr-90.png}
+				\includegraphics[width=110mm]{Data/Sr-90.png}\\
 				Gambar 7. Grafik Histogram dari Preparat Sr-90.
 			\end{center} 
 			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
+			$\sigma = \sqrt{-(-61.73789708)} = 7.857346694654627$
 				
 			\subsection*{4. Cs-137}
 			Tabel Pengolahan Data:
@@ -265,21 +279,23 @@
 				$\Sigma$ & 120 & 1240                 & 1.40393E+12 & 500 & 1     & 119.3285914  & 2009.38484                  & 1511.294711  \\* \bottomrule
 			\end{longtable}
 			\hspace{-0.6cm}Koefisien Regresi, \\
-			$a = $ \\
-			$b = $ \\
-			$r = $ \\
+			$a = -6.13748382$ \\
+			$b = 1.8127361$ \\
+			$r^{2} = 0.9980493145499695$ \\
+			$r = 0.9990241811637842$ \\ \newpage
 			Grafik: 
 			\begin{center}
-				\includegraphics[width=110mm]{Data/Cs-137-Graph.png}
+				\includegraphics[width=110mm]{Data/Cs-137-Graph.png}\\
 				Gambar 8. Grafik Regresi Linier dari Preparat Cs-137.
 			\end{center}
 			Grafik Histogram:
 			\begin{center}
-				\includegraphics[width=110mm]{Data/Cs-137.png}
+				\includegraphics[width=110mm]{Data/Cs-137.png}\\
 				Gambar 9. Grafik Histogram dari Preparat Cs-137.
 			\end{center} 
 			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
-		
+			$ \sigma = \sqrt{-(-6.13748382)} = 2.477394562842181 $\newpage
+			
 			\subsection*{5. Am-241}
 			Tabel Pengolahan Data:
 			\begin{longtable}{@{}lllllllll@{}}
@@ -305,22 +321,47 @@
 				$\Sigma$ & 29 & 155                  & 41194 & 500 & 1     & 4.338792837  & 30.41630261                 & 52.4705524   \\* \bottomrule
 			\end{longtable}
 			\hspace{-0.6cm}Koefisien Regresi, \\
-			$a = $ \\
-			$b = $ \\
-			$r = $ \\
+			$a = -2.12815321$ \\
+			$b = 0.73669029$ \\
+			$r^{2} = 0.9645310150242827$ \\
+			$r = 0.9821053991422116$ \\			
 			Grafik: 
 			\begin{center}
-				\includegraphics[width=110mm]{Data/Am-241-Graph.png}
+				\includegraphics[width=110mm]{Data/Am-241-Graph.png}\\
 				Gambar 10. Grafik Regresi Linier dari Preparat Am-241.
-			\end{center}
+			\end{center} \newpage
 			Grafik Histogram:
 			\begin{center}
-				\includegraphics[width=110mm]{Data/Am-241.png}
+				\includegraphics[width=110mm]{Data/Am-241.png}\\
 				Gambar 11. Grafik Histogram dari Preparat Am-241.
 			\end{center}
-			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\
+			Nilai rata-rata standar deviasi $\sigma = \sqrt{\mu}$ berdasarkan histogram:\\			
+			$\sigma = \sqrt{-(-2.12815321)} = 1.458819114900816$
 			
 			\subsection*{Perbandingan data antar preparat}
+				\begin{longtable}{@{}llllll@{}}
+					\toprule
+					Preparat &
+					\multicolumn{1}{c}{$a$} &
+					\multicolumn{1}{c}{$b$} &
+					\multicolumn{1}{c}{$r^{2}$} &
+					\multicolumn{1}{c}{$r$} &
+					\multicolumn{1}{c}{$\sigma$} \\* \midrule
+					\endfirsthead
+					%
+					\endhead
+					%
+					\bottomrule
+					\endfoot
+					%
+					\endlastfoot
+					%
+					Am-241 & -2.128  & 0.736 & 0.964 & 0.982 & 1.458 \\
+					Co-60  & -1.366  & 0.303 & 0.892 & 0.944 & 1.169 \\
+					Cs-137 & -6.137  & 1.812 & 0.998 & 0.999 & 2.477 \\
+					Na-22  & -1.81   & 0.586 & 0.989 & 0.994 & 1.345 \\
+					Sr-90  & -61.737 & 4.124 & 0.999 & 0.999 & 7.857 \\* \bottomrule
+				\end{longtable}
 			
 	
 	\section*{Pembahasan}
