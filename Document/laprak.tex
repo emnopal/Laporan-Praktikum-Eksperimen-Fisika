@@ -5,6 +5,7 @@
 \usepackage{longtable}
 \usepackage{geometry}
 \geometry{legalpaper}
+\usepackage{standalone}
 
 \title{Distribusi Poisson}
 \date{}
@@ -20,8 +21,8 @@
 	
 	\section{Dasar Teori}
 	 
-		\hspace{0.35 cm} Radioaktif adalah suatu atom yang tidak stabil yang selalu melepaskan energi dan atau partikel untuk mencapai kestabilan di dalam inti atomnya. Proses pelepasan energi radiasi atau partikel ini dikenal dengan istilah peluruhan. Walaupun proses peluruhan ini bersifat acak, namun apabila jumlah partikel yang dilepaskan dalam selang waktu tertentu ternyata memiliki pola kecenderungan tertentu secara statistik.\par
-		Kemungkinan suatu preparat radioaktif akan meluruh dengan melepaskan $n$ partikel dalam selang waktu $\Delta t$ tertentu dapat diperkirakan melalui pendekatan distribusi Poisson
+		\hspace{0.35 cm} Radioaktif adalah suatu atom yang tidak stabil yang selalu melepaskan energi dan atau partikel untuk mencapai kestabilan di dalam inti atomnya\cite{modul}. Proses pelepasan energi radiasi atau partikel ini dikenal dengan istilah peluruhan. Walaupun proses peluruhan ini bersifat acak, namun apabila jumlah partikel yang dilepaskan dalam selang waktu tertentu ternyata memiliki pola kecenderungan tertentu secara statistik.\par
+		Kemungkinan suatu preparat radioaktif akan meluruh dengan melepaskan $n$ partikel dalam selang waktu $\Delta t$ tertentu dapat diperkirakan melalui pendekatan distribusi Poisson 
 		sebagai berikut: 
 		\begin{equation}
 		W_{\mu}(n) = \frac{\mu^n}{n!}\cdot e^{-\mu}
@@ -31,7 +32,7 @@
 		\par $\mu$: nilai rata-rata peluruhan
 		\par $n$: jumlah partikel yang meluruh \\
 		
-		\par Secara teoritis nilai $\mu$ sangat dipengaruhi oleh ukuran preparat dan selang waktu $\Delta t$, serta berbanding terbalik dengan waktu paruh $T_{1/2}$ dari radioaktif tersebut. 
+		\par Secara teoritis nilai $\mu$ sangat dipengaruhi oleh ukuran preparat dan selang waktu $\Delta t$, serta berbanding terbalik dengan waktu paruh $T_{1/2}$ dari radioaktif tersebut\cite{modul}. 
 	
 		
 		
@@ -60,10 +61,6 @@
 		
 		\par Berdasarkan data tersebut, akan dihitung nilai rata-rata peluruhan $\mu$ dan simpangan bakunya $\sigma$ dengan pendekatan distribusi Poisson. Untuk preparat yang memiliki nilai rata-rata $\mu$ yang besar, dilakukan pula pendekatan distribusi normal atau Gausssian sebagai pembanding untuk membuktikan pola distribusi yang paling sesuai. 
 	
-	\section{Data Percobaan}
-		
-		Terlampir
-	
 	\section{Pengolahan Data}
 		
 		\begin{equation}
@@ -88,7 +85,7 @@
 			\subsection{Na-22}
 			Tabel Pengolahan Data:
 			
-			\begin{longtable}{@{}lllllllll@{}}
+			\begin{longtable}{@{}lllllllll@{}} 
 					\toprule
 					No  & $n$  & $n^{2}$ & $n!$   & $h$   & $w$     & $ln(w.n!)$     & $ln^{2}(w.n!)$ & $n.ln(w.n!)$   \\ \midrule
 				\endfirsthead
@@ -109,7 +106,7 @@
 				7   & 6  & 36                   & 720  & 5   & 0.01  & 1.974081026  & 3.896995897                 & 11.84448616  \\
 				8   & 7  & 49                   & 5040 & 1   & 0.002 & 2.310553263  & 5.33865638                  & 16.17387284  \\* \midrule
 				$\Sigma$ & 28 & 140                  & 5914 & 500 & 1     & 1.926546899  & 15.04844397                 & 31.35950977  \\* \bottomrule
-				\end{longtable}
+				\end{longtable} \newpage
 			\hspace{-0.6cm}Koefisien Regresi, \\
 			$a = -1.81056461$ \\
 			$b = 0.58610942$ \\ \\
@@ -370,9 +367,40 @@
 	
 	\section{Pembahasan}
 	
+		\hspace{0.35 cm} Pada praktikum kali ini, kami melakukan praktikum Distribusi Poisson secara remote (dikarenakan pandemi Covid-19) melalui TeamViewer. Praktikum kali ini dilakukan dengan mengkoneksikan komputer yang ada di lab ke alat pencacah Geiger Muller lalu mengontrolnya jarak jauh dengan menggunakan TeamViewer.
+		
+		\par Dengan menggunakan 5 preparat isotop radioaktif yaitu: Sr-90, Na-22, Co-60, Am-241 dan Cs-137 kita melakukan perhitungan frekuensi dari cacahan preparat radioaktif pada Geiger Muller. Sehingga, di setiap detik selama 500 detik kita dapat mengetahui jumlah cacahan dari isotop tersebut yang kemudian akan dibuat sebuah histogram dan akan diketahui jumlah frekuensinya melalui histogram tersebut
+		
+		\par Kemudian selanjutnya setelah dibuat histogramnya kita akan mendapatkan sebuah data yang kemudian akan diolah dengan menggunakan metode least square untuk menemukan $\mu$ nya atau nilai rata-ratanya dari frekuensi cacahan dari setiap preparat tersebut
+		
+		\par Setelah ditemukan $\mu$ nya atau nilai rata-ratanya, kemudian kita bandingkan dengan grafik histogram nya untuk mengetahui apakah ada kecocokan dari data yang sudah kita olah dengan data asli nya.
+		
+		\par Sehingga setelah diketahui $\mu$ nya kita dapat mengetahui aktivitas peluruhan preparat radioaktif dengan mengetahui rata-rata dari nilai peluruhannya per satuan detik, sehingga akan didapatkan karakteristik dari peluruhan preparat radioaktif tersebut
+		
+		\par Setelah itu, kita akan mengetahui berapa banyak jumlah dari preparat radioaktif tersebut yang meluruh per satuan detik selama 500 detik
+		
+		\par Contohnya adalah untuk preparat Na-22, kita akan mendapati nilai rata-ratanya berada di rentang n = 1.8, yang berarti isotop tersebut banyak yang meluruh di rentang n = 2 (dengan frekuensi di rentang 130-an) dengan standar deviasi nya adalah 1.34
+		
+		\par Kedua adalah untuk preparat Co-60, kita akan mendapati nilai rata-ratanya berada pada rentang n = 1.36, yang berarti isotop tersebut banyak yang meluruh di rentang n = 1 (dengan frekuensi di rentang 160-an) dengan standar deviasi nya adalah 1.169
+		
+		\par Ketiga adalah untuk preparat Sr-90, kita akan mendapat nilai rata-ratanya berada pada rentang n = 61.7, yang berarti isotop tersebut banyak yang meluruh di rentang n = 50-60 an (dengan frekuensi di rentang 10-30 an) dengan standar deviasi nya adalah 7.85
+		
+		\par Keempat adalah untuk preparat Cs-137, kita akan mendapat nilai rata-ratanya berada pada rentang n = 6.137, yang berarti isotop tersebut banyak yang meluruh di rentang n = 6-7 (dengan frekuensi di rentang 90-an) dengan standar deviasi nya adalah 2.47
+		
+		\par Kelima adalah untuk preparat Am-241, kita akan mendapat nilai rata-ratanya berada pada rentang n = 2.128, yang berarti isotop tersebut banyak yang meluruh di rentang n = 2-3 (dengan frekuensi di rentang 130-an) dengan standar deviasi nya adalah 1.458
+		
+		\par Sehingga inti dari praktikum ini adalah kita dapat mengetahui serta dapat membuktikan karakteristik statistik radioaktif dengan metode Distribusi Poisson dengan preparat radioaktif sebagai objek atau media nya. Serta dapat mengetahui aktifitas dari peluruhan preparat radioaktif tersebut dengan cara mengetahui berapa banyak isotop yang meluluh pada rentang waktu 500 detik dengan membaca frekuensi dari histogram dari isotop tersebut
+	
 	\section{Kesimpulan}
 	
-	\section{Daftar Pustaka}
-	
+	1. Disini kita sudah mengetahui tentang karakteristik statistik dari peluruhan radioaktif yaitu salah satunya dengan menggunakan metode distribusi Poisson. Sebaran data nya diolah dengan menggunakan frekuensi dari histogram untuk didapati jumlah isotop radioaktif yang meluruh. \\ \\
+	2. Aktifitas dari peluruhan radioaktif disini dapat diketahui dengan menggunakan metode least square untuk mendapatkan a nya dimana a adalah $\mu$ atau rata-rata isotop tersebut meluruh
+		
+	\begin{thebibliography}{9}
+		\bibitem{modul} 
+		Priambodo, dkk. 
+		\textit{Modul Laporan Praktikum Jarak Jauh Eksperimen Fisika II}. 
+		PLT UIN Jakarta, Jakarta, 2020.
+	\end{thebibliography}
 	
 \end{document}
