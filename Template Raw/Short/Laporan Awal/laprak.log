@@ -1,0 +1,348 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.26)  11 JUN 2020 18:10
+entering extended mode
+**./laprak.tex
+(laprak.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06>
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\art
+icle.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\siz
+e10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inp
+utenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics
+\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics
+\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics
+\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics
+\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics
+-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics
+-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs
+\booktabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen137
+\lightrulewidth=\dimen138
+\cmidrulewidth=\dimen139
+\belowrulesep=\dimen140
+\belowbottomsep=\dimen141
+\aboverulesep=\dimen142
+\abovetopsep=\dimen143
+\cmidrulesep=\dimen144
+\cmidrulekern=\dimen145
+\defaultaddspace=\dimen146
+\@cmidla=\count175
+\@cmidlb=\count176
+\@aboverulesep=\dimen147
+\@belowrulesep=\dimen148
+\@thisruleclass=\count177
+\@lastruleclass=\count178
+\@thisrulewidth=\dimen149
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\lo
+ngtable.sty"
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count179
+\LTcapwidth=\dimen150
+\LT@head=\box45
+\LT@firsthead=\box46
+\LT@foot=\box47
+\LT@lastfoot=\box48
+\LT@cols=\count180
+\LT@rows=\count181
+\c@LT@tables=\count182
+\c@LT@chunks=\count183
+\LT@p@ftn=\toks18
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry
+\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\
+ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\
+iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count184
+\Gm@cntv=\count185
+\c@Gm@tempcnt=\count186
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks19
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry
+\geometry.cfg"))
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/standalo
+ne\standalone.sty"
+Package: standalone 2018/03/26 v1.3a Package to include TeX sub-files with prea
+mbles
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\sh
+ellesc.sty"
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\
+xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyva
+l\xkeyval.tex"
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyva
+l\xkvutils.tex"
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count187
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/currfile
+\currfile.sty"
+Package: currfile 2015/04/23 v0.7c Provides the file path elements of the curre
+nt input file
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoption
+s\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmd
+s\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetk
+eys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/filehook
+\filehook.sty"
+Package: filehook 2020/02/03 v0.7 Hooks for input files
+)
+\c@currfiledepth=\count188
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/gincltex
+\gincltex.sty"
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/svn-prov
+\svn-prov.sty"
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbo
+x\adjustbox.sty"
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbo
+x\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbo
+x\trimclip.sty"
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/collectb
+ox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box49
+)
+\tc@llx=\dimen159
+\tc@lly=\dimen160
+\tc@urx=\dimen161
+\tc@ury=\dimen162
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbo
+x\tc-pdftex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen163
+\adjbox@Height=\dimen164
+\adjbox@Depth=\dimen165
+\adjbox@Totalheight=\dimen166
+\adjbox@pwidth=\dimen167
+\adjbox@pheight=\dimen168
+\adjbox@pdepth=\dimen169
+\adjbox@ptotalheight=\dimen170
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpag
+e\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count189
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/varwidth
+\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box50
+\sift@deathcycles=\count190
+\@vwid@loff=\dimen171
+\@vwid@roff=\dimen172
+))
+\gincltex@box=\box51
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/filemod\
+filemod-expmin.sty"
+Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
+ (expandable; minimal)
+))
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backen
+d\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count191
+\l__pdf_internal_box=\box52
+) (laprak.aux)
+\openout1 = `laprak.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/m
+kii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count192
+\scratchdimen=\dimen173
+\scratchbox=\box53
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen174
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks23
+)
+("C:\Users\Muhammad Naufal\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf
+-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: legalpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(121.41483pt, 708.2429pt, 182.12227pt)
+* \paperwidth=614.295pt
+* \paperheight=1011.78pt
+* \textwidth=430.00462pt
+* \textheight=708.2429pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=12.14484pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+[1
+
+{C:/Users/Muhammad Naufal/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (
+laprak.aux) ) 
+Here is how much of TeX's memory you used:
+ 3620 strings out of 480930
+ 60261 string characters out of 2895069
+ 301682 words of memory out of 3000000
+ 19438 multiletter control sequences out of 15000+200000
+ 535373 words of font info for 34 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 52i,6n,39p,251b,189s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Muhammad Naufal/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Muhammad Naufal/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Muhammad Nau
+fal/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+
+Output written on laprak.pdf (1 page, 32760 bytes).
+PDF statistics:
+ 18 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
